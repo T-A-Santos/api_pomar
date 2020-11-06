@@ -23,10 +23,10 @@ class EspeciesSerializer(serializers.HyperlinkedModelSerializer):
 
     
 class ArvoresSerializer(serializers.HyperlinkedModelSerializer):
+    
     class Meta:
         model = Arvores
         fields = ['id','especies', 'descricao', 'idade']
-
 
 class GrupoArvoresSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
