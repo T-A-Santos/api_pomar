@@ -1,0 +1,8 @@
+venv
+*.sqlite3
+__pycache__
+templates
+*.csv
+*.pdf
+.pytest_cache
+.vscode

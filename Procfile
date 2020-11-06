@@ -1,1 +1,1 @@
-web: gunicorn pomar.wsgi
+web: gunicorn pomar.wsgi 
