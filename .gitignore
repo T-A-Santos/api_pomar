@@ -6,3 +6,4 @@ templates
 *.pdf
 .pytest_cache
 .vscode
+.git
